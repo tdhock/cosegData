@@ -1,0 +1,12 @@
+TODOs
+
+gaps in the whole chromosome? for example there are a lot of NNNs near
+the centromere and so there is no reason to think there should be any
+peaks there. we can divide each chromosome into separate segmentation
+problems based on the gaps track,
+http://genome.ucsc.edu/cgi-bin/hgTables?table=gap
+
+2016.07.14
+
+McGill0003_H3K4me3_chr1, all data from chr1 from a H3K4me3 histone
+mark data set.

@@ -1,0 +1,23 @@
+Big data sets for testing the coseg package
+
+** Installation
+
+#+BEGIN_SRC R
+install.packages("devtools")
+devtools::install_github("tdhock/cosegData")
+#+END_SRC
+
+** Usage
+
+As of coseg_2016.07.13, the following results in numerical stability
+problem messages.
+
+#+BEGIN_SRC R
+data("McGill0003_H3K4me3_chr1", package="cosegData")
+library(coseg)
+N <- 1000000
+some <- McGill0003_H3K4me3_chr1[1:N,]
+seconds <- system.time({
+  fpop <- PeakSegFPOPchrom(some, N)
+})[["elapsed"]]
+#+END_SRC
