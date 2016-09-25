@@ -2,6 +2,17 @@ TODOs
 
 examples of how to use the gap track?
 
+2016.09.25
+
+Two new data sets for testing command line PeakSegFPOP program.
+
+H3K36me3_AM_immune_McGill0002_chunk1.RData coverage + labels which
+never achieve zero error, for testing target interval computation.
+
+H3K36me3_TDH_immune_McGill0001_chr10_51448845_125869472.bedGraph.xz
+very large coverage profile which at one point in the past was causing
+an error in the min-more computation.
+
 2016.08.05
 
 hg19.gap data set, for splitting a whole genome into separate
