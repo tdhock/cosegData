@@ -1,7 +1,7 @@
 Package: cosegData
 Maintainer: Toby Dylan Hocking <tdhock5@gmail.com>
 Author: Toby Dylan Hocking
-Version: 2016.09.25
+Version: 2016.11.16
 License: GPL-3
 Title: Constrained Optimal Segmentation data sets
 Description: Data sets for testing the coseg package.
